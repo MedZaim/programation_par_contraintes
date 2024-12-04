@@ -6,6 +6,9 @@
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
 }</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -18,8 +21,32 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a1dc033-3de7-48b4-823a-0681ad01e1d1" name="Changes" comment="aegdhfh">
+    <list default="true" id="0a1dc033-3de7-48b4-823a-0681ad01e1d1" name="Changes" comment="implementation of customized chaps functions">
+      <change afterPath="$PROJECT_DIR$/code_graphics/cube.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_graphics/includs/math_trix.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_graphics/src_graphics/ideas/aligner.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_graphics/src_graphics/ideas/ideas.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_graphics/src_graphics/ideas/polyedere.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_graphics/src_graphics/pendule/pendule.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_graphics/src_graphics/polygone/Polygon.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_graphics/src_graphics/polygone/polycone_main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cube.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/math_trix.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polycone_main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polyedere.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_graphics/includs/graphics_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/code_graphics/includs/graphics_utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_graphics/src_graphics/chapes.h" beforeDir="false" afterPath="$PROJECT_DIR$/code_graphics/src_graphics/chapes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_graphics/src_graphics/fleure/fleure.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/code_graphics/src_graphics/fleure/fleure.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code_graphics/src_graphics/horloge/horloge.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/code_graphics/src_graphics/horloge/horloge.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_graphics/src_graphics/ligne_tourning.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_graphics/src_graphics/mains.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/code_graphics/src_graphics/mains.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_graphics/src_graphics/mouse_click/drow_mouse.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/code_graphics/src_graphics/mouse_click/drow_mouse.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_graphics/src_graphics/mouse_click/mouse_click.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/code_graphics/src_graphics/mouse_click/mouse_click.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drow_mouse.exe" beforeDir="false" afterPath="$PROJECT_DIR$/drow_mouse.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fleure.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mains.exe" beforeDir="false" afterPath="$PROJECT_DIR$/mains.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mouse_click.exe" beforeDir="false" afterPath="$PROJECT_DIR$/mouse_click.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +59,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MedZaim&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MedZaim/infographie.git&quot;,
+    &quot;accountId&quot;: &quot;af5b7c1c-28a2-451f-bee2-988c17854d44&quot;
+  }
+}</component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2023" />
@@ -48,78 +87,102 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lenovo/Desktop/stady_work/infographie/code_graphics/src_graphics/trigonometrique/elipse_teta.cpp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;consents&quot;,
-    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "C/C++ File.chapes.cpp.executor": "Run",
+    "C/C++ File.cub.cpp (1).executor": "Run",
+    "C/C++ File.cub.cpp.executor": "Run",
+    "C/C++ File.cube.cpp.executor": "Run",
+    "C/C++ File.drow_mouse.cpp.executor": "Run",
+    "C/C++ File.fleure.cpp.executor": "Run",
+    "C/C++ File.ideas.cpp.executor": "Run",
+    "C/C++ File.mains.cpp.executor": "Run",
+    "C/C++ File.math_trix.cpp.executor": "Run",
+    "C/C++ File.mouse_click.cpp.executor": "Run",
+    "C/C++ File.pendule.cpp.executor": "Run",
+    "C/C++ File.polycone_main.cpp.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/lenovo/Desktop/stady_work/infographie/code_graphics/src_graphics/trigonometrique/elipse_teta.cpp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "structure.view.defaults.are.configured": "true",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Desktop\stady_work\infographie\code_graphics" />
+      <recent name="C:\Users\lenovo\Desktop\stady_work\infographie\code_graphics\src_graphics" />
       <recent name="C:\Users\lenovo\Desktop\stady_work\infographie\code_graphics\src_graphics\trigonometrique" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.horloge.cpp">
-    <configuration name="elipse_teta.cpp " type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="infographie" TARGET_NAME="elipse_teta.cpp" CONFIG_NAME="elipse_teta.cpp ">
+  <component name="RunManager" selected="C/C++ File.aligner.cpp">
+    <configuration name="aligner.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="infographie" TARGET_NAME="aligner.cpp" CONFIG_NAME="aligner.cpp">
       <option name="compilerOptions" value="-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32" />
-      <option name="sourceFile" value="code_graphics\src_graphics\trigonometrique\elipse_teta.cpp" />
+      <option name="sourceFile" value="code_graphics\src_graphics\ideas\aligner.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="elipse_teta.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="infographie" TARGET_NAME="elipse_teta.cpp" CONFIG_NAME="elipse_teta.cpp">
+    <configuration name="cub.cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="infographie" TARGET_NAME="polyedere.cpp" CONFIG_NAME="cub.cpp (1)">
       <option name="compilerOptions" value="-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32" />
-      <option name="sourceFile" value="C:\Users\lenovo\Desktop\stady_work\infographie\code_graphics\src_graphics\trigonometrique\elipse_teta.cpp" />
+      <option name="sourceFile" value="code_graphics\src_graphics\ideas\polyedere.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fleure.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="infographie" TARGET_NAME="fleure.cpp" CONFIG_NAME="fleure.cpp">
+    <configuration name="cube.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="infographie" TARGET_NAME="cube.cpp" CONFIG_NAME="cube.cpp">
       <option name="compilerOptions" value="-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32" />
-      <option name="sourceFile" value="code_graphics\src_graphics\fleure\fleure.cpp" />
+      <option name="sourceFile" value="code_graphics\cube.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="horloge.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="infographie" TARGET_NAME="horloge.cpp" CONFIG_NAME="horloge.cpp">
+    <configuration name="mains.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="infographie" TARGET_NAME="mains.cpp" CONFIG_NAME="mains.cpp">
       <option name="compilerOptions" value="-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32" />
-      <option name="sourceFile" value="code_graphics\src_graphics\horloge\horloge.cpp" />
+      <option name="sourceFile" value="code_graphics\src_graphics\mains.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mouse_click.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="infographie" TARGET_NAME="mouse_click.cpp" CONFIG_NAME="mouse_click.cpp">
+      <option name="compilerOptions" value="-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32" />
+      <option name="sourceFile" value="code_graphics\src_graphics\mouse_click\mouse_click.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="C/C++ File.fleure.cpp" />
-      <item itemvalue="C/C++ File.elipse_teta.cpp " />
-      <item itemvalue="C/C++ File.elipse_teta.cpp" />
-      <item itemvalue="C/C++ File.horloge.cpp" />
+      <item itemvalue="C/C++ File.aligner.cpp" />
+      <item itemvalue="C/C++ File.cube.cpp" />
+      <item itemvalue="C/C++ File.cub.cpp (1)" />
+      <item itemvalue="C/C++ File.mains.cpp" />
+      <item itemvalue="C/C++ File.mouse_click.cpp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ File.horloge.cpp" />
-        <item itemvalue="C/C++ File.fleure.cpp" />
-        <item itemvalue="C/C++ File.elipse_teta.cpp " />
-        <item itemvalue="C/C++ File.elipse_teta.cpp" />
+        <item itemvalue="C/C++ File.aligner.cpp" />
+        <item itemvalue="C/C++ File.cube.cpp" />
+        <item itemvalue="C/C++ File.cub.cpp (1)" />
+        <item itemvalue="C/C++ File.mains.cpp" />
+        <item itemvalue="C/C++ File.mouse_click.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +201,22 @@
       <workItem from="1730592086526" duration="2373000" />
       <workItem from="1730638036258" duration="1391000" />
       <workItem from="1730735633601" duration="458000" />
+      <workItem from="1730753670748" duration="784000" />
+      <workItem from="1730756311526" duration="6253000" />
+      <workItem from="1730764026477" duration="37000" />
+      <workItem from="1730794024041" duration="12595000" />
+      <workItem from="1730851235139" duration="5777000" />
+      <workItem from="1730890633514" duration="36412000" />
+      <workItem from="1731077412818" duration="1806000" />
+      <workItem from="1731246810102" duration="42690000" />
+      <workItem from="1731398972405" duration="11664000" />
+      <workItem from="1731419804259" duration="6386000" />
+      <workItem from="1731952043088" duration="31249000" />
+      <workItem from="1732204331504" duration="4880000" />
+      <workItem from="1732481297144" duration="6265000" />
+      <workItem from="1732601457371" duration="1331000" />
+      <workItem from="1732792574743" duration="1213000" />
+      <workItem from="1733154093063" duration="15910000" />
     </task>
     <task id="LOCAL-00001" summary="aegdhfh">
       <option name="closed" value="true" />
@@ -147,7 +226,39 @@
       <option name="project" value="LOCAL" />
       <updated>1730592404423</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="drawing line using mouse coordinates">
+      <option name="closed" value="true" />
+      <created>1730855201494</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730855201494</updated>
+    </task>
+    <task id="LOCAL-00003" summary="drawing line using mouse coordinates">
+      <option name="closed" value="true" />
+      <created>1730889496860</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730889496860</updated>
+    </task>
+    <task id="LOCAL-00004" summary="drawing line using mouse coordinates">
+      <option name="closed" value="true" />
+      <created>1730890667109</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730890667109</updated>
+    </task>
+    <task id="LOCAL-00005" summary="implementation of customized chaps functions">
+      <option name="closed" value="true" />
+      <created>1730921731692</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730921731692</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +284,20 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="aegdhfh" />
-    <option name="LAST_COMMIT_MESSAGE" value="aegdhfh" />
+    <MESSAGE value="drawing line using mouse coordinates" />
+    <MESSAGE value="implementation of customized chaps functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation of customized chaps functions" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/code_graphics/src_graphics/mains.cpp</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
